@@ -1,0 +1,281 @@
+    *{
+				margin: 0;padding: 0;
+				
+			}
+			body{
+				background: #FF999922; 
+			}
+			#header{
+				height: 50px;
+				background: palevioletred;
+				text-align: center;
+		    	font-size: 40px;
+			    color: #00FFFF;
+				width: 100%;
+				top: 0px;
+				position: absolute;
+				z-index: 999;
+			
+			}
+			.xin{
+				height: 40px;
+				width: 50px;
+			}
+			 .head{
+				padding-top: 50px;
+				width: 1005px;height: 120px;
+				background: #C3C3C3;
+				margin: auto;
+				text-align:center;
+				vertical-align:middel;
+			}
+			.head span{
+				text-align: left;
+			}
+			.sousuotu{
+			top: 10px;
+			position: relative;
+			}
+			.head1{
+				width: 50px;
+				height: 50px;
+				padding-left: 15px;
+				padding-right:5px ;
+			}
+			.head2{
+				width: 50px;
+				height: 50px;
+					padding-left: 15px;
+					padding-right:5px ;
+			}
+			.head3{
+				width: 50px;
+				height: 50px;
+					padding-left: 15px;
+					padding-right:5px ;
+			}
+ 
+			.sousuo{
+				width: 280px;
+				height: 30px;
+			}
+			#banner{
+				height: 406px;
+				background: #1D1D1D;
+			}
+			#category{
+				width: 1015px;height: 200px;
+				
+				margin: auto;
+			}
+			#category .item{
+				width: 125px;height: 165px;
+				
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-top: 10px;
+				padding-bottom: 25px;
+				border-right: 2px solid palevioletred;
+				float: left;
+			}
+	/* 功能6个 */
+			#category .item.first{
+				padding-left: 0;
+			}
+			#category .item.last{
+				padding-right: 0;
+				border:0;
+			}
+			/* //男女图片 */
+			.ren{
+				height: 403px;
+				float: left;
+			}
+			
+			
+			
+/* 	轮播的css */
+					ul{
+						list-style: none;
+						position: relative;
+					}
+					.slider{
+						width: 700px;
+						height: 400px;
+						position: absolute;
+						left: 1200px;
+						overflow: hidden;
+						margin: auto;
+						border: 3px solid palevioletred;
+						
+					}
+					.slider .list{
+						position: absolute;
+						
+					}
+					.slider .list .item{
+						width: 700px;
+						height: 400px;
+						float: left;
+					
+					}
+					.slider .list .item img{
+						width: 800px;
+						height: 400px;
+						display: block;
+						
+						/* 可以让图片 无缝连接 */
+						/* none表示不显示在网页上，但是代码存在;bolck是此元素将
+						显示为块级元素，此元素前后会带有换行符。 */
+					}
+					.slider .prev, .slider .next {
+						position: absolute;
+						top: 150px;
+						width: 40px;
+						height: 60px;
+						 background:#F2108596;
+						 font-size: 40px;
+						 color: white;
+						 text-align: center;
+						 display:none;
+						 
+						
+						
+					}
+					.slider .next {
+						right: 0px;
+					}
+					.slider .pagination .bullet{
+						width: 20px;
+						height: 20px;
+						margin-left: 5px;
+						top: 350px; 
+						left: 300px;
+						float: left;
+						position: relative;
+						z-index: 999;  /* 调动显示的突出和凹进的位置  -1凹进 */
+						background-color: gray;
+						color: #CECECE;
+						border-radius: 50%;
+						cursor: pointer;/* 鼠标变成小手 */
+						text-align: center;
+						line-height: 20px;
+					}
+					.focus{
+					background: palevioletred !important;/* !important 最高优先级 */
+					}
+					/* //6个功能 */
+		.gongneng1{
+			padding-top:20px ;
+			width: 140px;
+			height: 135px;
+		}
+		.gongneng2{
+			padding-top:20px ;
+			width: 125px;
+			height: 135px;
+		}
+		.gongneng3{
+			padding-top:20px ;
+			width: 125px;
+			height: 135px;
+		}
+		.gongneng4{
+			padding-top:20px ;
+			width: 125px;
+			height: 135px;
+		}
+		.gongneng5{
+			padding-top:20px ;
+			width: 125px;
+			height: 135px;
+		}
+		.gongneng6{
+			padding-top:20px ;
+			width: 125px;
+			height: 135px;
+		}
+/* 	推广 */
+		.tui1{
+			width: 300px;
+			height: 330px;
+		}
+		.tui2{
+			width: 300px;
+			height: 330px;
+		}
+		.tui3{
+			width: 300px;
+			height: 330px;
+		}
+
+
+/* 图片 */
+
+
+
+/* 超链接 */
+a{
+	 text-decoration:none; 
+	 color: #1D1D1D;
+}
+
+.title-text{
+	font-size:30px ;
+	color: #00FFFF;
+	background: #808080;
+	text-align: center;
+}
+ #zg1{
+	
+position: absolute;
+width: 800px;
+height: 500px;
+background:
+#373A3C;
+top: 900px;
+left: 600px;
+color:
+palevioletred;
+font-size: 30px;
+display: none;
+} 
+
+#zg2{
+	
+position: absolute;
+width: 800px;
+height: 500px;
+background:
+#373A3C;
+top: 1100px;
+left: 600px;
+color:
+palevioletred;
+font-size: 30px;
+display: none;
+} 
+
+ #zg3{
+	
+position: absolute;
+width: 800px;
+height: 500px;
+background:
+#373A3C;
+top: 1350px;
+left: 600px;
+color:
+palevioletred;
+font-size: 30px;
+display: none;
+} 
+.pp{
+	width: 100%;
+	height: 55px;
+	background: #C3C3C3;
+	font-size: 30px;
+	text-align: center;
+	line-height: 55px;
+	color: #00FFFF;
+}
