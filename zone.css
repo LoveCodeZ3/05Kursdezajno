@@ -32,6 +32,15 @@
 			.head span{
 				text-align: left;
 			}
+			.head .loginbox{
+				float: right;
+				height: 35px;
+				width: 50;
+				border:3px solid #98FB98;
+				color: palegoldenrod;
+				line-height: 35px;
+				text-align: center;
+			}
 			.sousuotu{
 			top: 10px;
 			position: relative;
